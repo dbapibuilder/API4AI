@@ -1,0 +1,16 @@
+{
+    "name": "search_internet",
+    "description": "Searches internet to get up-to-date information from the web.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "The search query"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  }

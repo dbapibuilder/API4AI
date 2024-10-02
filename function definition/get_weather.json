@@ -1,0 +1,16 @@
+{
+    "name": "get_Weather",
+    "description": "Get the weather in location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "type": "string",
+          "description": "The city and state e.g. San Francisco, CA"
+        }
+      },
+      "required": [
+        "location"
+      ]
+    }
+  }

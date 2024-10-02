@@ -1,0 +1,26 @@
+{
+    "name": "send_email",
+    "description": "Sends an email to a recipient(s). charset=utf-8",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "to": {
+          "type": "string",
+          "description": "the email(s) the email should be sent to. ask user if he/she doesn't provide email address."
+        },
+        "content": {
+          "type": "string",
+          "description": "the content of the email.You get content form chat context"
+        },
+        "subject": {
+          "type": "string",
+          "description": "summary of content of the email.charset=utf-8"
+        }
+      },
+      "required": [
+        "to",
+        "content",
+        "subject"
+      ]
+    }
+  }

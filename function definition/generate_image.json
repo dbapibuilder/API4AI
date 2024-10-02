@@ -1,0 +1,16 @@
+{
+    "name": "generate_image",
+    "description": "Creates and displays an image",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "prompt": {
+          "type": "string",
+          "description": "The prompt to be used to create the image"
+        }
+      },
+      "required": [
+        "prompt"
+      ]
+    }
+  }
