@@ -6,18 +6,21 @@ This repository demonstrates how to interact with the Assistant API. Follow the 
 
 1. **Clone the Repository**:
 	```bash
-	git clone https://github.com/dbapibuilder/API4AI
-	```
+    git clone https://github.com/dbapibuilder/API4AI
+    ```
 
 2. **Get API Subscription**:
-	- Visit [open.dbapibuilder.com](https://open.dbapibuilder.com) to get a real API subscription.
-	- Obtain your API key.
+    - Visit [open.dbapibuilder.com](https://open.dbapibuilder.com) to get a real API subscription.
+    - Obtain your API key.And use your own OpenAI/Azure OpenAI API key.
 
 3. **Configure the Environment**:
-	- Fill in the `.env` file (rename `sample.env`) with your API keys.
+    - Fill in the `.env` file (rename `sample.env`) with your API keys.
 
-4. **Run Streamlit and Deploy to Cloud**:
-	- Check the [GPT Assistants API UI](https://github.com/dbapibuilder/API4AI/blob/main/gpt-assistants-api-ui.md) for detailed instructions on how to run the repository using Streamlit.Forked from [Link](https://github.com/ryo-ma/gpt-assistants-api-ui)
+4. **Add Function on OpenAI or Azure OpenAI Assistant Setting**:
+    - Refer to the [function definition](https://github.com/dbapibuilder/API4AI/tree/main/function%20definition) for detailed instructions.
+
+5. **Run Streamlit and Deploy to Cloud**:
+    - Check the [GPT Assistants API UI](https://github.com/dbapibuilder/API4AI/blob/main/gpt-assistants-api-ui.md) for detailed instructions on how to run the repository using Streamlit.Forked from [Link](https://github.com/ryo-ma/gpt-assistants-api-ui)
 
 By following these steps, you can make AI integration easy and efficient. API4AI simplifies the process, allowing you to focus on building and deploying AI solutions without the usual hassle.
 
