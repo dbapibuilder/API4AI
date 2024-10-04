@@ -38,7 +38,6 @@ def search_internet(query: str):
 
     response = requests.request("POST", reqUrl, data=payload,  headers=headersList)
 
-    #return json.dumps(response.json())
     return response.text
 
 
@@ -54,7 +53,6 @@ def send_email(to: str, subject: str, content: str):
 
     response = requests.request("POST", reqUrl, data=payload,  headers=headersList)
 
-    #return json.dumps(response.json())
     return response.text
 
 def generate_image(prompt: str):
@@ -69,7 +67,6 @@ def generate_image(prompt: str):
 
     response = requests.request("POST", reqUrl, data=payload,  headers=headersList)
 
-    #return json.dumps(response.json())
     return response.text
 
 
