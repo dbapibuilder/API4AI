@@ -14,7 +14,7 @@ This repository demonstrates how to interact with the Assistant API. Follow the 
 	- Obtain your API key.
 
 3. **Configure the Environment**:
-	- Fill in the `.env` file (or `sample.env`) with your API keys.
+	- Fill in the `.env` file (rename `sample.env`) with your API keys.
 
 4. **Run Streamlit and Deploy to Cloud**:
 	- Check the [GPT Assistants API UI](https://github.com/dbapibuilder/API4AI/blob/main/gpt-assistants-api-ui.md) for detailed instructions on how to run the repository using Streamlit.Forked from [Link](https://github.com/ryo-ma/gpt-assistants-api-ui)

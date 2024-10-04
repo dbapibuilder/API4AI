@@ -1,6 +1,7 @@
 ## Function Definition
 
-[Videos](https://www.youtube.com/@DBAPIBuilder)
+[Videos](https://www.youtube.com/@DBAPIBuilder)<br>
+
 [Gateway](https://open.dbapibuilder.com)
 
 | Functions   | Description| API       |
