@@ -28,5 +28,4 @@ By following these steps, you can make AI integration easy and efficient. API4AI
 
 You can learn more by watching videos on [DBAPIBuilder's YouTube channel](https://www.youtube.com/@DBAPIBuilder).
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0l1jhso_qmc?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/0l1jhso_qmc/0.jpg)](https://www.youtube.com/embed/0l1jhso_qmc?autoplay=1)
