@@ -1,0 +1,14 @@
+{
+    "name": "search_arxiv",
+    "description": "Retrieve academic papers from the ArXiv database based on a search query.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "search_query": {
+          "type": "string",
+          "description": "The search query string following ArXiv API syntax. Use field prefixes for specific fields (ti: for title, au: for author, abs: for abstract, cat: for category, etc.) and Boolean operators (AND, OR, NOT). Example: all:electron&start=6000&max_results=2000, or au:del_maestro+ANDNOT+ti:checkerboard"
+        }
+      },
+      "required": ["search_query"]
+    }
+  }

@@ -10,6 +10,7 @@
 | search_internet.json     | Search News, Web, and Image from Internet   | [Search Internet](https://dab-main-50aad64.zuplo.app/docs/routes#search-internet) |
 | send_email.json | Provide your email address and let AI send email with its answers | [Send Email](https://dab-main-50aad64.zuplo.app/docs/routes#send-email) |
 | generate_image.json | Create image with your prompt  | [Generate Image](https://dab-main-50aad64.zuplo.app/docs/routes#generate-image)    |
+| search_arxiv.json | Fetch papers from arXiv | [Search arXiv](https://dab-main-50aad64.zuplo.app/docs/routes#search-papers-from-arxiv)    |
 
 ## Using JSON Files with OpenAI/Azure OpenAI Assistant API
 
